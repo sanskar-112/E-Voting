@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Vote - E-Voting System</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h2>Vote for Your Candidate</h2>
+
+  <form onsubmit="return submitVote()">
+    <label><input type="radio" name="candidate" value="Candidate A" required> Candidate A</label><br>
+    <label><input type="radio" name="candidate" value="Candidate B" required> Candidate B</label><br>
+    <label><input type="radio" name="candidate" value="Candidate C" required> Candidate C</label><br>
+
+    <button type="submit">Submit Vote</button>
+  </form>
+
+  <script src="script.js"></script>
+</body>
+</html>

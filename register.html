@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Register - E-Voting System</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h2>Voter Registration</h2>
+
+  <form onsubmit="return registerUser()">
+    <input type="text" id="name" placeholder="Full Name" required><br>
+    <input type="number" id="age" placeholder="Age" required><br>
+    <input type="text" id="voterId" placeholder="Create Voter ID" required><br>
+    <input type="password" id="password" placeholder="Create Password" required><br>
+
+    <button type="submit">Register</button>
+  </form>
+
+  <a href="index.html">Already Registered? Login</a>
+
+  <script src="script.js"></script>
+</body>
+</html>

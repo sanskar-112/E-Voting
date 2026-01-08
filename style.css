@@ -1,0 +1,87 @@
+ {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Body Styling */
+body {
+  background: linear-gradient(135deg, #004aad, #007bff);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+/* Container Box */
+form, #results {
+  background: rgba(255, 255, 255, 0.15);
+  padding: 30px;
+  border-radius: 12px;
+  width: 350px;
+  text-align: center;
+  backdrop-filter: blur(4px);
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+/* Page Heading */
+h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 26px;
+  font-weight: 600;
+}
+
+/* Inputs */
+input[type="text"],
+input[type="number"],
+input[type="password"] {
+  width: 90%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+}
+
+/* Radio Buttons */
+label {
+  display: block;
+  margin: 6px 0;
+  font-size: 17px;
+}
+
+/* Buttons */
+button {
+  margin-top: 15px;
+  padding: 12px;
+  width: 90%;
+  border: none;
+  background: #ffcc00;
+  font-size: 17px;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #f6b800;
+  transform: scale(1.05);
+}
+
+/* Link */
+a {
+  color: #ffeb3b;
+  font-size: 15px;
+  display: block;
+  margin-top: 12px;
+}
+
+ul li {
+  font-size: 20px;
+  margin: 10px;
+  font-weight: 600;
+}
