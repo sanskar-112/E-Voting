@@ -1,2 +1,2 @@
 # E-Voting
-The Blockchain-Based E-Voting System is a secure, transparent, and decentralized digital voting platform that leverages blockchain technology to ensure election integrity. Each vote is recorded as a block in the blockchain, making the voting process tamper-proof, immutable, and verifiable.
+The Blockchain-Based E-Voting System is a secure, transparent, and decentralized digital voting platform that leverages blockchain technology to ensure election integrity. Each vote is recorded as a block in the blockchain, making the voting process tamper-proof, immutable, and verifiable.The system allows authorized voters to cast their votes online and enables administrators to manage elections, candidates, and results efficiently.
